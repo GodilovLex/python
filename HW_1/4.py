@@ -12,4 +12,4 @@ while (n % 10) != n:
     if cur_max < cur_digit:
         cur_max = cur_digit
 
-print('Максимальная цифра в числе равна ', cur_max)
+print('Максимальная цифра в числе равна  ', cur_max)

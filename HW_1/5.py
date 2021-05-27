@@ -6,7 +6,7 @@ if fin_res >= 0:
     ros = fin_res/rev
     print('Рентабельность: ', ros)
     staff = int(input('Введите количество сотрудников: '))
-    print('Прибыль на одного сотрудника: ', fin_res/staff)
+    print('Прибыль на одного сотрудника:  ', fin_res/staff)
 else:
-    print('Убыток: ', fin_res * -1)
+    print('Убыток:  ', fin_res * -1)
 
